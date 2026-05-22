@@ -3,72 +3,122 @@
 
 ---
 
-## ⏱️ SLIDE 1 — TITLE (~1–2 mins)
+## ⏱️ SLIDE 1 — TITLE (~3–4 mins)
 
 *[Buksan camera, tumingin sa lens, ipakita yung title slide]*
 
-> "Magandang araw! Ako si Dan Mark C. Pastoral, 4th year BSME student from Pangasinan State University — BSME-4A.
-> Yung presentation ko ngayon ay tungkol sa aking Windmill Project Proposal —
-> isang Feasibility and Siting Study para sa isang Wind Energy Farm
+> "Magandang araw po sa inyong lahat. Ako si Dan Mark C. Pastoral, 4th year Mechanical Engineering student
+> mula sa Pangasinan State University, BSME-4A.
+> Ngayon, ipapresenta ko sa inyo yung aking Windmill Project Proposal —
+> isang Feasibility and Siting Study para sa pagtatayo ng isang Wind Energy Farm
 > dito sa Pasuquin, Ilocos Norte, Philippines."
 
 > "To ay submitted in partial fulfillment ng aming course requirements,
-> dated April 29, 2026, under the supervision ni Engr. Marfel D. Rosario, PME.
-> Yung target capacity nito ay 50 to 100 megawatts,
-> with 20 turbines na ikokonekta sa Luzon Grid."
+> dated April 29, 2026, under the supervision ni Engr. Marfel D. Rosario, PME."
+
+> "Ngayon, bago tayo magsimula, gusto ko munang ibahagi kung bakit ko pinili yung wind energy
+> bilang paksa ng aking proposal.
+> Alam nating lahat na yung Pilipinas ay isa sa mga pinaka-vulnerable na bansa
+> pagdating sa climate change at energy insecurity.
+> Halos 57% pa rin ng ating electricity ay galing sa fossil fuels —
+> coal, oil, at natural gas — na hindi lang mahal, pabago-bago pa ng presyo,
+> at malaking contributor pa sa greenhouse gas emissions."
+
+> "Kaya naman, yung Renewable Energy Act of 2008, o Republic Act 9513,
+> ay nagtatakda na dapat maabot ng Pilipinas yung 35% renewable energy share
+> ng total power generation nito by 2030.
+> At doon pumapasok yung ating project —
+> yung Pasuquin Wind Farm, na may target capacity na 50 to 100 megawatts,
+> with 20 turbines na ikokonekta direkta sa Luzon Grid via NGCP."
+
+> "So yung buong presentation na to ay tatalakay sa tatlong pangunahing bagay —
+> una, yung engineering constraints na ginamit ko sa pagdidisenyo ng plant,
+> pangalawa, yung step-by-step na process flow ng wind farm mula hangin hanggang kuryente,
+> at pangatlo, yung technical, financial, at environmental na basehan ng project.
+> Sige, simulan na natin."
 
 ---
 
-## ⏱️ SLIDE 2 — PROJECT OVERVIEW (~2 mins)
+## ⏱️ SLIDE 2 — PROJECT OVERVIEW (~3–4 mins)
 
 *[I-click next slide — Executive Summary: Project Overview]*
 
-> "So bago tayo pumunta sa technical na parte, tingnan muna natin yung
-> overall overview ng project to.
-> Yung location natin ay Pasuquin, Ilocos Norte —
-> at yung target capacity natin ay mga 50 to 100 megawatts, expandable pa."
+> "Narito yung Executive Summary ng ating project.
+> Tingnan muna natin yung big picture bago tayo pumunta sa detalye."
 
-> "Yung turbine type na gagamitin natin ay yung Horizontal Axis Wind Turbine, o HAWT —
-> classic to, industry standard na for large-scale wind farms.
-> Estimated turbines ay 15 to 30 units, 3 to 5 megawatts each,
-> na ikokonekta sa Luzon Grid via NGCP.
-> At yung design lifespan ng project to ay 25 to 30 years —
-> so long-term investment talaga to para sa Ilocos Norte."
+> "Yung project location natin ay Pasuquin, Ilocos Norte —
+> isang coastal at hilly municipality sa dulo ng hilagang Luzon,
+> na kilala bilang bahagi ng tinatawag na Ilocos Norte Wind Corridor.
+> Dito na umuugoy yung mga sikat na turbines ng Bangui at Burgos Wind Farms —
+> at yung Pasuquin ay katabi lang nito, kaya alam nating nandoon talaga yung hangin."
+
+> "Yung target capacity natin ay 50 to 100 megawatts — expandable pa ito habang tumatagal.
+> Yung turbine type na gagamitin natin ay yung Horizontal Axis Wind Turbine, o HAWT —
+> to yung pinaka-proven at pinaka-efficient na design para sa utility-scale wind farms worldwide.
+> Magtatayo tayo ng 15 to 30 units, bawat isa ay may rated capacity na 3 to 5 megawatts."
+
+> "Yung grid connection natin ay sa Luzon Grid via NGCP —
+> yung National Grid Corporation of the Philippines —
+> at yung design lifespan ng buong project ay 25 to 30 years.
+> Ibig sabihin, isang beses mo itong itayo, at for the next three decades,
+> patuloy na mag-ge-generate to ng malinis na kuryente para sa Ilocos Norte at karatig probinsya."
+
+> "Yung key benefit? Simple lang —
+> clean, renewable baseload power para sa Ilocos Norte.
+> Walang carbon emissions, walang fuel cost, walang pabago-bagong presyo ng kuryente.
+> Ito yung uri ng infrastructure na talagang kailangan ng bansa natin ngayon."
 
 ---
 
-## ⏱️ SLIDE 3 — WHY PASUQUIN? (~2–3 mins)
+## ⏱️ SLIDE 3 — WHY PASUQUIN? (~4–5 mins)
 
 *[I-click next slide — Site Selection: Why Pasuquin, Ilocos Norte?]*
 
-> "Ngayon, bakit natin pinili yung Pasuquin bilang site ng wind farm to?
-> May limang pangunahing dahilan."
+> "Ngayon, isa sa pinaka-importanteng desisyon sa pagdidisenyo ng wind farm
+> ay yung site selection — kung saan mo itatayo.
+> Hindi pwedeng basta-basta pumili ng lugar.
+> Kailangan may matibay na engineering at technical na basehan.
+> So bakit Pasuquin? May limang pangunahing dahilan."
 
 > "Una — High Wind Power Density.
 > Yung Pasuquin ay located along yung Northwest Luzon Wind Corridor,
 > at highly exposed sa Northeast Monsoon — o yung tinatawag nating Amihan.
+> Yung Amihan season ay tumatagal ng mga 6 buwan — October hanggang March —
+> at consistently pumapasok yung malakas na hangin mula sa Luzon Strait papunta sa coast ng Pasuquin.
 > Yung average wind speed dito ay 7 to 9 meters per second,
-> classified bilang IEC Class 4 to 5 wind resource,
-> na may capacity factor na 35 to 45 percent.
-> Ibig sabihin, consistently malakas talaga yung hangin dito."
+> na classified bilang IEC Wind Class 4 to 5.
+> At yung capacity factor — o yung percentage ng oras na aktibo yung turbine sa full power —
+> ay 35 to 45 percent.
+> Para sa reference, yung average na coal plant ay may capacity factor na 70 to 85%,
+> pero yung coal ay may fuel cost at emissions.
+> Yung wind? Libre yung hangin. Kaya yung 38% capacity factor natin ay competitive na talaga."
 
 > "Pangalawa — Strategic Coastal and Hilly Terrain.
 > Yung Pasuquin ay may combination ng coastal plains at ridge areas —
-> so ma-ma-maximize natin yung energy output per turbine
-> kasi dalawang source ng malakas na hangin yung meron tayo dito."
+> meaning dalawang magandang location tayo para sa turbines.
+> Yung coastal area ay nakaka-capture ng sea breeze at Amihan winds directly,
+> habang yung ridge areas naman ay mas mataas, kaya mas malakas pa yung hangin doon.
+> So ma-ma-maximize natin yung energy output per turbine depende sa placement."
 
-> "Pangatlo — Proximity to Infrastructure.
+> "Pangatlo — Proximity to Existing Infrastructure.
 > Malapit tayo sa Bangui at Burgos wind farms,
-> at established na yung NGCP transmission grid at heavy-haul routes sa Ilocos Norte.
-> So mas madali at mas mura yung construction at grid connection."
+> na nangangahulugang established na yung NGCP transmission grid sa Ilocos Norte.
+> Hindi na tayo kailangan mag-build ng bagong transmission line mula sa simula —
+> connect na lang tayo sa existing infrastructure.
+> Malaking tipid iyon sa construction cost."
 
 > "Pang-apat — Eco-Tourism Potential.
-> Similar sa Bangui Wind Farm, pwedeng maging tourist destination yung project to —
-> dual purpose: power plant at landmark para sa local economy."
+> Alam nating lahat yung Bangui Wind Farm — iconic na tourist destination na to sa Ilocos Norte.
+> Yung Pasuquin Wind Farm ay pwedeng sundin yung same formula —
+> power plant at tourist landmark sabay-sabay.
+> Public viewing deck, educational exhibits, local livelihood opportunities —
+> hindi lang kuryente yung ibinibigay ng project to sa komunidad."
 
-> "At panglima — Sustainability and Energy Security.
-> To ay magrereduce ng fossil fuel reliance natin
-> at magsisigurado ng stable, long-term energy supply para sa Ilocos Norte."
+> "At panglima — Sustainability at Energy Security.
+> To ay magrereduce ng fossil fuel reliance natin,
+> magbibigay ng stable at predictable na energy supply sa Ilocos Norte,
+> at susuporta sa layunin ng Pilipinas na maabot ang 35% RE share by 2030
+> under yung Renewable Energy Act."
 
 ---
 
@@ -420,9 +470,9 @@
 
 | Slide | Content | Time |
 |-------|---------|------|
-| Slide 1 | Title | ~1–2 mins |
-| Slide 2 | Project Overview | ~2 mins |
-| Slide 3 | Why Pasuquin? | ~2–3 mins |
+| Slide 1 | Title | ~3–4 mins |
+| Slide 2 | Project Overview | ~3–4 mins |
+| Slide 3 | Why Pasuquin? | ~4–5 mins |
 | Slide 4 | Wind-to-Grid Process Flow | ~8–10 mins |
 | Slide 5 | Turbine Specifications | ~2 mins |
 | Slide 6 | Design Constraints (C1–C6) | ~5–6 mins |
@@ -431,7 +481,8 @@
 | Slide 9 | Environmental Impact Assessment | ~2 mins |
 | Slide 10 | Financial & Economic Analysis | ~2 mins |
 | Slide 11 | Key Takeaways / Conclusion | ~1–2 mins |
-| **TOTAL** | | **~31–34 mins** |
+| **TOTAL** | | **~34–38 mins** |
 
-> ⚠️ **Note:** Yung total estimated time ay ~31–34 mins — slightly above yung 30-minute limit ng instructor.
-> Para makapasok sa 20–30 minutes, pwedeng i-shorten yung Slides 3, 7, 8, 9, at 10 — one to two sentences na lang per bullet point doon.
+> ⚠️ **Tip sa timing:** Kung gusto mong makapasok sa exactly 30 mins,
+> pwedeng i-bawasan yung bilis ng pagsasalita sa Slides 1–3 lang,
+> o laktawan yung ilang pangungusap sa bawat point. Huwag burahin — baka kailanganin pa.
