@@ -222,35 +222,57 @@
 
 ---
 
-## ⏱️ SLIDE 5 — TURBINE SPECIFICATIONS (~2 mins)
+## ⏱️ SLIDE 5 — TURBINE SPECIFICATIONS (~3–4 mins)
 
 *[I-click next slide — Section III: Turbine Specifications]*
 
 > "Ngayon, pag-usapan natin yung technical specifications ng turbines na gagamitin natin.
+> Kasi important to — yung turbine choice natin ay directly nagdedetermina
+> ng efficiency, output, at lifespan ng buong wind farm.
 > Yung turbine type ay yung 3-Bladed Horizontal Axis Wind Turbine, o HAWT —
-> to yung pinakacommon at pinakaefficient na design para sa utility-scale wind farms."
+> to yung pinakacommon at pinakaefficient na design para sa utility-scale wind farms worldwide.
+> Bakit three blades? Kasi yung three-blade configuration ay nag-o-optimize ng aerodynamic balance —
+> hindi masyadong mabigat tulad ng two-blade, at hindi naman masyadong complex tulad ng four or more.
+> Industry standard na to globally, kaya maaasahan yung reliability nito."
 
-> "Yung rated capacity per unit ay 3 to 5 megawatts,
-> na may rotor diameter na 120 to 145 meters
-> at hub height na 90 to 110 meters.
+> "Yung rated capacity per unit ay 3 to 5 megawatts —
+> at para sa ating final design, nag-settle tayo sa 5 megawatts per turbine
+> batay sa wind calculations natin.
+> Yung rotor diameter ay 120 to 145 meters —
+> imagine mo yung isang turbine blade na halos katumbas ng isang buong football field.
+> Kaya malaki talaga yung kinukuha nitong swept area para sa maximum energy capture."
+
+> "Yung hub height ay 90 to 110 meters —
+> yun yung taas ng gitna ng rotor mula sa lupa.
+> Bakit ganoon kataas? Kasi mas mataas ka, mas malakas yung hangin —
+> yun yung wind shear principle na tatalakayin natin sa constraints slide mamaya.
 > Yung cut-in wind speed ay 3 meters per second —
-> meaning magsisimula na siyang mag-generate ng kuryente pag umabot sa 3 m/s yung hangin.
+> meaning magsisimula na siyang mag-generate ng kuryente pag umabot na sa 3 m/s yung hangin.
 > Yung rated wind speed naman ay 12 to 14 m/s —
-> doon pinaka-optimal yung output.
-> At yung cut-out speed ay 25 m/s — doon na siya mag-sstop para sa safety."
+> doon pinaka-optimal at pinaka-mataas yung output.
+> At yung cut-out speed ay 25 m/s — kapag lumampas doon, awtomatiko siyang nagsstop
+> para protektahan yung mechanical components mula sa storm damage."
 
-> "Yung blade material ay fiberglass-reinforced epoxy composite, o GFRP,
-> at yung generator type ay Doubly Fed Induction Generator — yung DFIG na nabanggit natin kanina.
-> Design lifespan: 25 years with scheduled maintenance."
+> "Para sa blade material — fiberglass-reinforced epoxy composite, o GFRP.
+> Pinili to kasi magaan, matibay, at resistant sa corrosion —
+> importante yun lalo na sa coastal environment ng Pasuquin
+> kung saan may salt air at humidity.
+> At yung generator type ay yung Doubly Fed Induction Generator —
+> yung DFIG na nabanggit na natin kanina sa process flow.
+> Yung design lifespan ng buong turbine ay 25 years with scheduled maintenance —
+> kaya yung investment natin ay may mahabang operational life."
 
 ---
 
-## ⏱️ SLIDE 6 — DESIGN CONSTRAINTS (~5–6 mins)
+## ⏱️ SLIDE 6 — DESIGN CONSTRAINTS (~6–8 mins)
 
 *[I-click next slide — Design Constraints: Engineering Basis & Limitations]*
 
-> "Ngayon, pag-usapan natin yung mga engineering constraints na ginamit ko
-> sa pagdidisenyo ng wind farm to.
+> "Ngayon, ito yung isa sa pinaka-importanteng parte ng presentation na to —
+> yung mga engineering constraints na ginamit ko sa pagdidisenyo ng wind farm.
+> Yung constraints na to ay hindi lang basta limitations —
+> sila yung mga engineering na basehan ng lahat ng desisyon ko,
+> mula sa turbine size, hanggang sa spacing, tower height, foundation design, at electrical system.
 > May anim na pangunahing constraints."
 
 ---
@@ -258,15 +280,23 @@
 ### 🔴 C1: Betz Limit
 
 > "Una — yung Betz Limit.
-> To yung pinaka-fundamental na physical constraint sa wind energy.
-> Proven ni Albert Betz noong 1919 na
-> walang turbine yung makakaextract ng higit sa 59.3% ng kinetic energy ng hangin.
-> Gamit yung Wind Power Density equation —
+> To yung pinaka-fundamental na physical constraint sa wind energy engineering.
+> Proven ni Albert Betz noong 1919 —
+> na kahit anong perfectly designed na turbine, hindi nito ma-extract
+> yung higit sa 59.3% ng kinetic energy ng hangin.
+> Bakit? Kasi kung makuha mo yung lahat ng energy ng hangin,
+> titigil yung hangin sa harap ng turbine — at hindi na makakalusot.
+> Kailangan may remaining kinetic energy yung hangin para makapag-flow through yung turbine.
+> Yun yung physics behind yung Betz Limit."
+
+> "Gamit yung Wind Power Density equation —
 > P equals one-half, times air density, times swept area, times wind speed cubed —
 > nakalkula ko na sa 8.5 m/s at 130-meter rotor diameter,
-> yung available power ay approximately 27.7 megawatts.
-> After applying yung Betz limit at drivetrain losses,
-> yung practical rated output ay 5 megawatts per turbine."
+> yung available power sa hangin ay approximately 27.7 megawatts.
+> After applying yung Betz limit — times 0.593 — nag-drop to sa 16.4 megawatts.
+> Tapos after pa ng drivetrain losses sa gearbox at generator,
+> yung practical rated output natin ay 5 megawatts per turbine.
+> Yun yung realistically makukuha natin — at that's already good engineering."
 
 ---
 
@@ -274,195 +304,320 @@
 
 > "Pangalawa — yung Wake Effect Spacing.
 > Kapag nag-extract ng energy yung isang turbine mula sa hangin,
-> nagche-create ito ng zone ng reduced wind speed at increased turbulence sa likod nito.
-> Para mabawasan to, yung turbines ay dapat nakalagay nang
+> nagche-create ito ng turbulent zone sa likod nito —
+> parang yung wake ng bangka sa dagat, pero sa hangin.
+> Yung hangin sa likod ng turbine ay mas mabagal at mas magulo —
+> kaya kung maglalagay ka ng ibang turbine doon agad,
+> mababawasan yung energy output nito ng hanggang 20 to 40 percent.
+> Yun yung tinatawag nating wake losses."
+
+> "Para mabawasan to, yung turbines natin ay nakalagay nang
 > 7 rotor diameters apart sa downwind direction — mga 910 meters —
 > at 4 rotor diameters crosswind — mga 520 meters.
+> Bakit 7D at 4D? Kasi based sa industry research,
+> doon na nagrerecover yung wind speed pabalik sa normal.
 > Yung spacing constraint na to yung directly nagdetermina
-> ng total land area requirement na approximately 9.46 square kilometers."
+> ng total land area requirement natin — approximately 9.46 square kilometers para sa 20 turbines."
 
 ---
 
 ### 🔴 C3: Wind Shear — Hub Height
 
 > "Pangatlo — yung Wind Shear constraint.
-> Yung wind speed ay tumataas habang tumataas yung altitude,
-> ayon sa Power Law equation.
-> Sa ground level, yung wind speed ay around 6.5 m/s.
-> Sa 100 meters hub height, tumataas ito sa 8.19 m/s — 26% na pagtaas.
-> Dahil yung wind power ay proportional sa velocity cubed,
-> ito ay nangangahulugang roughly twice yung power kumpara sa ground level.
-> Kaya justified yung cost ng 90 to 110-meter towers."
+> Simple lang yung concept nito: mas mataas ka sa lupa, mas malakas yung hangin.
+> Yun yung tinatawag nating wind shear — yung pagbabago ng wind speed with altitude.
+> Ito ay sumusunod sa Power Law equation.
+> Sa ground level, yung wind speed sa Pasuquin ay around 6.5 m/s lang.
+> Pero sa 100 meters hub height, tumataas ito sa 8.19 m/s — 26% na pagtaas."
+
+> "Ngayon, bakit malaki yung 26%? Kasi yung wind power ay proportional sa velocity cubed —
+> ibig sabihin, yung 26% na pagtaas ng wind speed ay nagre-result sa
+> roughly twice ang power output kumpara sa ground level.
+> Ganon kamalaki yung epekto.
+> Kaya kahit mahal yung taller towers — 90 to 110 meters —
+> fully justified yung extra cost nito sa terms ng additional energy production."
 
 ---
 
 ### 🔴 C4: Safety Setbacks
 
 > "Pang-apat — yung Safety Setbacks.
-> Yung mga turbine ay dapat hindi bababa sa 500 meters
-> mula sa mga tirahan para sa noise compliance — below 45 decibels —
-> at hindi bababa sa 200 meters mula sa coastline
+> Ito yung regulatory at safety distances na kailangan sundin natin.
+> Una, yung mga turbine ay dapat hindi bababa sa 500 meters
+> mula sa pinakamalapit na tirahan o residential area.
+> Bakit 500 meters? Para masigurado na yung noise level
+> na natatanggap ng mga kapitbahay ay below 45 decibels —
+> roughly yung equivalent ng normal conversation noise.
+> Hindi natin gusto na yung mga residents na nasa paligid ay
+> madisturbo ng turbine noise 24 hours a day."
+
+> "Pangalawa, yung mga turbine ay dapat hindi bababa sa 200 meters mula sa coastline —
 > bilang storm surge buffer.
-> Hindi to negotiable — safety at regulatory approval requirement to."
+> Kasi sa Ilocos Norte, especially during typhoon season,
+> may risk ng storm surge mula sa dagat.
+> Yung 200-meter buffer ay nagse-serve bilang safety margin para protektahan yung turbine foundations.
+> Hindi to negotiable — ito ay hard requirement ng regulatory agencies
+> bago mo makuha yung environmental compliance certificate."
 
 ---
 
 ### 🔴 C5: Grid Voltage — 33kV
 
-> "Panlima — yung electrical constraint.
-> Yung collection voltage ay itinakda sa 33 kilovolts —
-> industry standard to para sa wind farms up to 200 megawatts.
-> Yung step-up transformer ratio ay 3.48 to 1 —
-> mula 33 kV papunta sa 115 kV —
-> para mag-match sa existing NGCP Ilocos Norte grid standard."
+> "Panlima — yung electrical constraint na may kinalaman sa voltage levels.
+> Yung collection voltage ng ating internal wind farm network ay itinakda sa 33 kilovolts.
+> Bakit 33 kV at hindi mas mataas o mas mababa?
+> Kasi to yung industry standard na collection voltage para sa wind farms
+> na may capacity na hanggang 200 megawatts —
+> sapat yung insulation at cable requirements nito para sa ating 100 MW project,
+> at hindi naman overkill yung cost."
+
+> "Mula sa 33 kV collection network, yung kuryente ay isti-step up pa
+> sa main substation natin gamit yung 3.48 to 1 transformer ratio —
+> mula 33 kV papunta sa 115 kV.
+> Bakit 115 kV? Kasi yun yung existing NGCP transmission standard sa Ilocos Norte grid.
+> Kailangan mag-match tayo sa kung anong voltage ang ginagamit ng grid —
+> otherwise hindi tayo makakaconnect."
 
 ---
 
 ### 🔴 C6: Foundation Loads
 
-> "Pang-anim — yung Foundation Loads constraint.
-> Yung bawat turbine base ay kailangang withstand ng overturning moment
-> na 115,000 kilonewton-meters sa tower base.
-> Nangangailangan to ng octagonal reinforced concrete mat foundation,
-> 21 meters yung lapad, na may 144 anchor bolts.
-> Yung safety factor laban sa overturning ay 2.30 —
-> well above yung required minimum na 1.5.
-> So ligtas tayo dito."
+> "Pang-anim at panghuli — yung Foundation Loads constraint.
+> Ito yung structural engineering side ng project.
+> Yung isang 5 MW turbine na may 90 to 110 meter na tower —
+> imagine mo yung laki ng overturning force na nagagawa ng hangin sa tower na yun.
+> Yung calculated overturning moment sa tower base ay
+> 115,000 kilonewton-meters — napakalaking pwersa yun.
+> Para ma-resist to, kailangan natin ng octagonal reinforced concrete mat foundation,
+> 21 meters yung lapad, na may 144 anchor bolts na naka-embed sa concrete."
+
+> "Yung safety factor natin laban sa overturning ay 2.30 —
+> ibig sabihin, kaya pang i-resist ng ating foundation yung 2.3 times
+> yung maximum expected na overturning force.
+> Yung minimum required safety factor ay 1.5 lang —
+> so yung 2.30 natin ay significantly above the requirement.
+> Ligtas tayo, at hindi tayo mag-o-overdesign na nagwawaste ng pera.
+> Balanced engineering yun."
 
 ---
 
-## ⏱️ SLIDE 7 — KEY ENGINEERING CALCULATIONS (~2–3 mins)
+## ⏱️ SLIDE 7 — KEY ENGINEERING CALCULATIONS (~3–4 mins)
 
 *[I-click next slide — Section III-A: Key Engineering Calculations]*
 
-> "Ngayon tingnan natin yung actual calculations para ma-validate yung mga decisions natin.
+> "Ngayon, tingnan natin yung actual numbers — yung calculations na nag-validate ng lahat ng decisions natin.
+> To yung mathematical proof na ang project na to ay technically sound.
 > May dalawang pangunahing calculations dito."
 
 > "Una — yung Wind Power Density gamit yung Betz equation.
-> P equals one-half rho A V-cubed.
-> Yung rotor radius natin ay 65 meters, kaya yung swept area ay 13,273 square meters.
-> Air density ay 1.225 kg per cubic meter.
-> Wind speed: 8.5 m/s.
-> Available power: approximately 27.7 megawatts.
-> After Betz limit — times 0.593 — nag-result to ng 16.4 megawatts.
-> After drivetrain losses, 11.5 megawatts.
-> At yung practical rated output? 5.0 megawatts per turbine — confirmed."
+> Yung formula ay P equals one-half, times rho, times A, times V-cubed.
+> Kung saan yung rho ay air density, A ay swept area ng rotor, at V ay wind speed.
+> So para sa ating turbine: yung rotor radius natin ay 65 meters,
+> kaya yung swept area A ay pi times r-squared — na nag-result sa 13,273 square meters.
+> Yung air density sa Pasuquin coastal area ay 1.225 kilograms per cubic meter —
+> yung standard sea level value.
+> At yung design wind speed natin ay 8.5 meters per second."
 
-> "Pangalawa — yung Capacity Factor at Annual Energy Production.
-> Yung rated capacity natin ay 5 megawatts per turbine.
-> Gamit yung 38% capacity factor for Pasuquin,
+> "Plug in sa formula: yung available power sa hangin ay approximately 27.7 megawatts.
+> After applying yung Betz limit — times 0.593 — nag-drop to sa 16.4 megawatts.
+> After pa ng drivetrain losses sa gearbox at generator,
+> yung practical rated output ay 5.0 megawatts per turbine. Confirmed na to."
+
+> "Pangalawa — yung Capacity Factor at Annual Energy Production calculation.
+> Yung rated capacity natin ay 5 megawatts per turbine, at may 8,760 hours sa isang taon.
+> Yung theoretical maximum AEP ay 43,800 megawatt-hours per turbine per year —
+> pero hindi naman nag-o-operate sa full capacity yung turbine sa buong taon.
+> Gamit yung 38% capacity factor na basehan sa actual wind data ng Pasuquin,
 > yung gross AEP per turbine ay 16,644 megawatt-hours per year.
-> After 7% electrical losses, yung net AEP per turbine ay 15,479 MWh per year.
-> Para sa 20 turbines — total AEP natin ay 309,580 megawatt-hours per year. Confirmed."
+> After 7% electrical losses mula sa cables at transformers,
+> yung net AEP per turbine ay 15,479 MWh per year.
+> Multiply yun sa 20 turbines —
+> total net AEP natin ay 309,580 megawatt-hours per year.
+> Sapat yun para mapagsilbihan yung mga 77,400 Filipino households.
+> Napakaraming pamilya yung mapapakinabangan ng project na to."
 
 ---
 
-## ⏱️ SLIDE 8 — SITE LAYOUT & CONFIGURATION (~2 mins)
+## ⏱️ SLIDE 8 — SITE LAYOUT & CONFIGURATION (~3–4 mins)
 
 *[I-click next slide — Section IV: Site Layout & Configuration]*
 
-> "Ngayon, pag-usapan natin yung physical layout ng wind farm.
-> Mayroon tayong 20 wind turbine generators —
-> arranged sa 5 rows times 4 units per row.
-> Yung inline spacing ay 7D — o 910 meters — para sa wake recovery,
-> at yung crosswind spacing ay 4D — o 520 meters.
+> "Ngayon, pag-usapan natin yung physical layout ng wind farm —
+> kung paano nakaayos yung 20 turbines natin sa lupa.
+> Yung site layout ay hindi random — may systematic na engineering basis ito
+> para ma-maximize yung energy output habang sinusunod yung lahat ng constraints natin."
+
+> "Yung 20 wind turbine generators natin ay arranged sa 5 rows times 4 units per row —
+> parang isang grid ng turbines.
+> Yung inline spacing — o yung distansya ng turbines na nakahanay sa direksyon ng hangin —
+> ay 7D, o 910 meters.
+> Bakit 7 rotor diameters? Para masiguro na fully recovered na yung wind speed
+> bago ito umabot sa susunod na turbine.
+> At yung crosswind spacing — yung distansya ng turbines na cross sa direksyon ng hangin —
+> ay 4D, o 520 meters.
+> Mas maikli lang to kasi hindi ganoon kalakas yung wake effect sa crosswind direction.
 > Yung gross area ng buong site ay approximately 9.46 square kilometers."
 
-> "Yung safety setbacks ay 500 meters mula sa mga bahay para sa noise compliance,
-> at 200 meters mula sa coastline bilang storm surge buffer —
-> consistent sa constraints na nabanggit natin kanina."
+> "Yung safety setbacks ay consistent sa constraints na tinalakay natin —
+> 500 meters mula sa mga bahay para sa noise compliance,
+> at 200 meters mula sa coastline bilang storm surge buffer.
+> Bago pa man natayo yung kahit isang turbine, kailangan munang ma-verify
+> na lahat ng turbine locations ay nasa loob ng allowed zones."
 
-> "Para sa ancillary facilities, mayroon tayong:
-> Maintenance Workshop para sa spare parts at tools,
-> Control Room slash SCADA — 24/7 supervisory center,
-> On-site Substation — yung 33 to 115 kV step-up transformer natin,
-> Emergency Fire Station para sa nacelle fire response,
-> at isang Eco-Tourism Center — public viewing deck at exhibits,
-> similar sa Bangui Wind Farm."
+> "Bukod sa mga turbines, mayroon din tayong mga ancillary facilities
+> na essential para sa operations.
+> Yung Maintenance Workshop — para sa storage ng spare parts, gearbox oil, blade tools,
+> at lahat ng kailangan para sa regular preventive maintenance.
+> Yung Control Room slash SCADA Center — to yung 24/7 supervisory wind farm control center
+> kung saan nino-monitor ng operators yung lahat ng 20 turbines sa real time.
+> Yung On-site Substation — dito nakalagay yung 33 to 115 kV step-up transformer at switchgear.
+> Yung Emergency Fire Station — para sa nacelle fire response at high-angle rescue operations,
+> kasi tandaan, yung nacelle ay nasa taas ng 90 to 110 meters.
+> At yung Eco-Tourism Center — public viewing deck at educational exhibits,
+> similar sa sikat na Bangui Wind Farm tourist attraction."
 
 ---
 
-## ⏱️ SLIDE 9 — ENVIRONMENTAL IMPACT ASSESSMENT (~2 mins)
+## ⏱️ SLIDE 9 — ENVIRONMENTAL IMPACT ASSESSMENT (~3–4 mins)
 
 *[I-click next slide — Section V: Environmental Impact Assessment]*
 
-> "Importante rin yung environmental side ng project to.
-> Yung positive impacts ay malinaw —
-> bawat 5 MW turbine ay nag-a-avoid ng mga 8,000 to 10,000 tonnes ng CO2 per year
-> kumpara sa coal power.
-> Zero direct air pollutant emissions during operation.
-> Small physical footprint — yung lupa sa pagitan ng turbines ay pwede pa ring gamitin para sa agriculture.
+> "Ngayon, pag-usapan natin yung environmental side ng project to.
+> Kasi bilang responsible engineers, hindi lang tayo nagdidisenyo para sa performance —
+> kailangan din nating i-consider yung epekto ng project sa kalikasan at sa komunidad.
+> May dalawang bahagi to — yung positive impacts at yung potential impacts with mitigation."
+
+> "Una, yung positive impacts.
+> Yung pinaka-obvious ay yung carbon emissions reduction.
+> Bawat 5 MW turbine natin ay nag-a-avoid ng mga 8,000 to 10,000 tonnes ng CO2 per year
+> kumpara sa coal-fired power plant na may parehong output.
+> Para sa 20 turbines, yun ay 160,000 to 200,000 tonnes ng CO2 per year
+> na hindi mapupunta sa atmosphere.
+> Para ma-visualize mo yun — yun ay equivalent sa pag-alis ng halos 40,000 cars sa kalsada every year."
+
+> "Pangalawa, zero direct air pollutant emissions during operation.
+> Walang sulfur dioxide, walang nitrogen oxides, walang particulate matter —
+> yung mga pollutants na nagko-contribute sa smog at respiratory diseases.
+> Kapag tumatakbo na yung turbine, wala siyang ginagawang emisyon.
+> Kuryente lang."
+
+> "Pangatlo, small physical footprint.
+> Kahit 9.46 square kilometers ang gross area ng wind farm,
+> yung actual na footprint ng mga turbine foundations at roads
+> ay napakaliit kumpara sa total land area.
+> Yung lupa sa pagitan ng turbines ay pwede pa ring gamitin para sa agriculture —
+> pwedeng mag-maize, mag-vegetable farming, o mag-livestock doon.
+> Dual use yung lupa — power plant at farmland sabay-sabay.
 > At walang water discharge o thermal pollution sa Luzon Strait."
 
-> "Pero may mga potential impacts din tayo na kailangan nating i-address.
-> Para sa bird and bat mortality — gagamitin tayo ng radar-based curtailment during migration season.
-> Para sa noise pollution — yung 500-meter setback natin, combined with low-noise turbine models
-> at quarterly monitoring.
-> Para sa visual impact — community consultation at Bangui-style aesthetic branding.
+> "Pero may mga potential negative impacts din tayo na kailangan nating i-address nang maayos.
+> Para sa bird and bat mortality — gagamitin tayo ng radar-based curtailment system
+> na nagdiddetect ng mga migrating birds at bats at awtomatikong nagpapahinto ng turbine rotation
+> during peak migration season.
+> Para sa noise pollution — yung 500-meter setback natin,
+> combined with low-noise blade designs at quarterly noise monitoring,
+> ay magse-siguro na below 45 decibels palagi yung noise levels sa residential areas.
+> Para sa visual at landscape impact — magko-conduct tayo ng community consultations
+> at gagamitin yung same aesthetic branding ng Bangui Wind Farm
+> para ma-position yung project bilang tourist attraction, hindi lang power plant.
 > At para sa shadow flicker — mag-mo-model tayo ng flicker zones
-> at ia-adjust yung operating hours kung kinakailangan."
+> at ia-adjust yung turbine operating hours kung may areas na naaapektuhan."
 
 ---
 
-## ⏱️ SLIDE 10 — FINANCIAL & ECONOMIC ANALYSIS (~2 mins)
+## ⏱️ SLIDE 10 — FINANCIAL & ECONOMIC ANALYSIS (~3–4 mins)
 
 *[I-click next slide — Section VI: Financial & Economic Analysis]*
 
-> "Ngayon, pag-usapan natin yung financial side.
-> Yung total capital expenditure ng project to ay PHP 4.4 to 8.9 billion —
-> breakdown: PHP 3 to 6 billion para sa turbines,
-> PHP 450 to 900 million para sa civil works at foundations,
-> PHP 300 to 600 million para sa electrical at substation,
-> PHP 200 to 500 million para sa grid connection sa NGCP,
-> at PHP 50 to 100 million para sa development at EIS."
+> "Ngayon, pag-usapan natin yung financial side ng project.
+> Kasi kahit gaano kaganda yung engineering ng isang project,
+> kung hindi ito financially viable, hindi ito matutuloy.
+> So tingnan natin kung viable ba talaga yung Pasuquin Wind Farm."
 
-> "Para sa revenue projections —
-> gamit yung 38% capacity factor at yung ERC Feed-in-Tariff rate na PHP 8.53 per kilowatt-hour,
-> yung gross annual revenue ay PHP 1.42 to 2.83 billion per year.
-> Yung simple payback period ay 8 to 12 years —
-> over a 25-year project life, so strong returns talaga to."
+> "Una — yung Capital Expenditure, o CAPEX.
+> Yung total CAPEX ng project ay PHP 4.4 to 8.9 billion.
+> Malaki yun, pero i-breakdown natin para maintindihan kung saan napupunta yung pera.
+> Yung pinakamalaking gastos ay yung mga turbines mismo —
+> PHP 3.0 to 6.0 billion para sa 15 to 30 units.
+> Yung civil works at foundations — yung concrete, excavation, at installation —
+> ay PHP 450 to 900 million.
+> Yung electrical system at substation — cables, transformers, switchgear —
+> ay PHP 300 to 600 million.
+> Yung grid connection sa NGCP — yung transmission line at metering equipment —
+> ay PHP 200 to 500 million.
+> At yung development at environmental impact study — EIS, permits, feasibility studies —
+> ay PHP 50 to 100 million."
 
-> "Economic at social benefits:
-> 50 to 100 permanent jobs during operations, 300 to 500 construction jobs,
-> real property tax at business tax sa Pasuquin LGU,
-> eco-tourism revenue,
-> at reduced fossil fuel dependence para sa buong region."
+> "Pangalawa — yung Revenue Projections.
+> Gamit yung 38% capacity factor at yung installed capacity na 100 megawatts,
+> yung annual energy output ay 166 to 332 gigawatt-hours per year.
+> Yung kuryente na to ay ibebenta sa grid sa ERC Feed-in-Tariff rate na PHP 8.53 per kilowatt-hour —
+> yun yung guaranteed rate ng gobyerno para sa renewable energy projects under RA 9513.
+> Kaya yung gross annual revenue ay PHP 1.42 to 2.83 billion per year.
+> At yung simple payback period ay 8 to 12 years —
+> over a 25-year project life, ibig sabihin malaking profit pa rin tayo
+> kahit mabayaran na yung buong investment."
+
+> "Pangatlo — yung Economic at Social Benefits na hindi nakikita sa income statement.
+> Yung project na to ay magge-generate ng 50 to 100 permanent jobs during operations —
+> turbine technicians, engineers, security, admin — at 300 to 500 construction jobs during build phase.
+> Magbabayad tayo ng real property tax at business tax sa Pasuquin LGU —
+> direct revenue para sa local government.
+> Magco-contribute tayo sa eco-tourism revenue ng munisipyo.
+> At magrereduce tayo ng fossil fuel dependence ng buong rehiyon,
+> na nangangahulugang mas stable at mas mura ang presyo ng kuryente para sa lahat."
 
 ---
 
-## ⏱️ SLIDE 11 — KEY TAKEAWAYS / CONCLUSION (~1–2 mins)
+## ⏱️ SLIDE 11 — KEY TAKEAWAYS / CONCLUSION (~3–4 mins)
 
 *[I-click next slide — Conclusion & Recommendations: Key Takeaways]*
 
-> "So para i-summarize yung lahat —
-> may apat na key takeaways yung project to."
+> "At ngayon, para i-wrap up yung buong presentation —
+> may apat na key takeaways yung Pasuquin Wind Farm project na to.
+> At gusto kong sabihin na yung bawat isa sa mga to ay hindi lang claim —
+> backed ito ng actual na engineering calculations at data."
 
 > "Una — Technically Feasible.
-> Yung Class 4 to 5 wind resource ng Pasuquin, 38% capacity factor,
-> at existing NGCP infrastructure ay nagpapatunay na viable yung project to
-> gamit standard HAWT technology."
+> Yung Class 4 to 5 wind resource ng Pasuquin,
+> na may 38% capacity factor at average wind speed na 7 to 9 m/s,
+> ay nagpapatunay na may sapat na wind energy yung site para sa large-scale development.
+> Yung existing NGCP infrastructure sa Ilocos Norte ay nagpapabilis ng grid connection,
+> at yung standard HAWT technology na gagamitin natin ay proven na globally.
+> Hindi to experimental — proven technology sa proven na wind resource site."
 
 > "Pangalawa — Economically Viable.
-> PHP 4.4 to 8.9 billion CAPEX, PHP 8.53 per kWh FiT rate,
-> at 8 to 12 year simple payback period over a 25-year project life —
-> strong long-term returns."
+> PHP 4.4 to 8.9 billion CAPEX, PHP 8.53 per kWh guaranteed FiT rate,
+> at 8 to 12 year simple payback period —
+> over a 25-year project life, yung project na to ay mag-ge-generate ng
+> significant returns para sa investors.
+> At yung FiT guarantee ng gobyerno ay nagdadagdag ng financial security —
+> may assured na buyer ng ating kuryente sa guaranteed na presyo."
 
 > "Pangatlo — Environmentally Responsible.
-> Nag-a-avoid tayo ng 160,000 to 200,000 tonnes ng CO2 per year.
-> Zero water discharge. Small footprint.
-> Full EIS at ECC compliance sa DENR at DOE."
+> Nag-a-avoid tayo ng 160,000 to 200,000 tonnes ng CO2 per year —
+> katumbas ng pag-alis ng 40,000 cars sa kalsada annually.
+> Zero water discharge, zero air pollutants during operation.
+> Small physical footprint na nagpapahintulot ng dual land use.
+> Full EIS at ECC compliance sa DENR at DOE — lahat by the book."
 
 > "At pang-apat — Serves approximately 77,400 Households.
 > Yung total net AEP natin na 309,580 MWh per year mula sa 20 turbines
-> ay susuporta sa PH 35% renewable energy target by 2030 under RA 9513."
+> ay hindi lang isang numero sa papel —
+> ibig sabihin nito ay yung mga 77,400 pamilyang Pilipino
+> ay magkakaroon ng access sa malinis, mura, at sustainable na kuryente
+> dahil sa project na to.
+> At susuporta to sa PH 35% renewable energy target by 2030 under RA 9513."
 
-> "Naniniwala ako na sa tamang planning, stakeholder engagement,
-> at regulatory compliance,
-> yung Pasuquin Wind Farm ay magiging isang landmark clean energy project —
-> nagpapatuloy ng tradisyon ng Ilocos Norte bilang lider sa renewable energy."
+> "Sa kabuuan, naniniwala ako na yung Pasuquin Wind Farm ay
+> technically sound, financially viable, at environmentally responsible.
+> Sa tamang planning, stakeholder engagement, at regulatory compliance,
+> yung project na to ay magiging isang landmark clean energy project —
+> nagpapatuloy ng tradisyon ng Ilocos Norte bilang lider sa renewable energy ng Pilipinas."
 
-> "Salamat sa pakikinig. Ito si Dan Mark C. Pastoral,
-> BSME-4A, Pangasinan State University."
+> "Iyon na yung aking presentation. Maraming salamat sa pakikinig.
+> Ito si Dan Mark C. Pastoral, BSME-4A,
+> Pangasinan State University."
 
 ---
 
@@ -474,15 +629,16 @@
 | Slide 2 | Project Overview | ~3–4 mins |
 | Slide 3 | Why Pasuquin? | ~4–5 mins |
 | Slide 4 | Wind-to-Grid Process Flow | ~8–10 mins |
-| Slide 5 | Turbine Specifications | ~2 mins |
-| Slide 6 | Design Constraints (C1–C6) | ~5–6 mins |
-| Slide 7 | Key Engineering Calculations | ~2–3 mins |
-| Slide 8 | Site Layout & Configuration | ~2 mins |
-| Slide 9 | Environmental Impact Assessment | ~2 mins |
-| Slide 10 | Financial & Economic Analysis | ~2 mins |
-| Slide 11 | Key Takeaways / Conclusion | ~1–2 mins |
-| **TOTAL** | | **~34–38 mins** |
+| Slide 5 | Turbine Specifications | ~3–4 mins |
+| Slide 6 | Design Constraints (C1–C6) | ~6–8 mins |
+| Slide 7 | Key Engineering Calculations | ~3–4 mins |
+| Slide 8 | Site Layout & Configuration | ~3–4 mins |
+| Slide 9 | Environmental Impact Assessment | ~3–4 mins |
+| Slide 10 | Financial & Economic Analysis | ~3–4 mins |
+| Slide 11 | Key Takeaways / Conclusion | ~3–4 mins |
+| **TOTAL** | | **~46–55 mins** |
 
-> ⚠️ **Tip sa timing:** Kung gusto mong makapasok sa exactly 30 mins,
-> pwedeng i-bawasan yung bilis ng pagsasalita sa Slides 1–3 lang,
-> o laktawan yung ilang pangungusap sa bawat point. Huwag burahin — baka kailanganin pa.
+> 💡 **Tip sa timing:** May sobrang daming content na ngayon kaya may flexibility ka na.
+> Kung gusto mong mapaikli sa 20–30 mins — mag-pick ka ng 2 to 3 sentences lang per bullet point sa bawat slide.
+> Kung gusto mong buong 30 mins — basahin mo yung karamihan sa script pero laktawan yung mga parenthetical explanations.
+> Lahat ng extra content ay nandoon para may backup ka lagi.
